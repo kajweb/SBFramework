@@ -1,0 +1,43 @@
+[
+    {
+        "name": "topthink/think-orm",
+        "version": "v1.2.4",
+        "version_normalized": "1.2.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/top-think/think-orm.git",
+            "reference": "e6e4633a87012d84a056e6f86776fbe2b472f73f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://files.phpcomposer.com/files/top-think/think-orm/e6e4633a87012d84a056e6f86776fbe2b472f73f.zip",
+            "reference": "e6e4633a87012d84a056e6f86776fbe2b472f73f",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.6.0"
+        },
+        "time": "2018-02-05T05:52:41+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "think\\": "src"
+            },
+            "files": [
+                "src/config.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "liu21st",
+                "email": "liu21st@gmail.com"
+            }
+        ],
+        "description": "think orm"
+    }
+]

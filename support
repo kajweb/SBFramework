@@ -1,0 +1,33 @@
+#SBFramework PHP Framework
+
+## 实例方法
+### CSM层实例化
+```
+S("Api\a");
+Service("Api\a");
+M("Api\a");
+Model("Api\a");
+```
+该种方法调用全局function中的Service方法
+最后返回new Api\aService()；
+
+
+```
+new Service("Api\a");
+new Model("Api\a");
+```
+详见代码`init 1.2.1`段
+这种方法通过对控制器下command.php进行引用、加载。
+通过__call方法反射到Api\aService方法
+
+```
+namespace Api
+new \Api\aService();
+new aService();
+```
+该种方法，通过使用autoload进行自动加载。
+详见代码`init 1.2.2`段
+
+### 内置函数实例化
+如`\SBFramework\XXX`，直接通过以下语句实现
+`$fileName = __ROOT__ . "{$className}.php";`

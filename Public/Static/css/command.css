@@ -1,0 +1,138 @@
+#body {
+    -webkit-box-shadow: 0 0 20px grey;
+    -moz-box-shadow: 0 0 20px gray;
+    box-shadow: 0 0 20px grey;
+}
+
+#logo {
+    padding-top: 10px;
+}
+
+#logo img{
+    max-width: 100%;
+}
+
+#nav,#nav-L{
+    margin-bottom: 20px;
+}
+
+.nav > li > a,
+.dropdown-menu > li > a {
+	transition: background-color 0.4s linear;
+	-moz-transition: background-color 0.5s  linear;
+	-webkit-transition: background-color 0.4s  linear;
+	-o-transition: background-color 0.4s linear;
+	border-radius: 0;
+}
+
+.bg-primary
+{
+background-color: #428bca;
+}
+
+.panel-heading {
+    background-image: url(../static/lblue.gif);
+    background-repeat: repeat-x;
+}
+
+#panel-heading{
+    background-image: url();
+}
+
+.panel-default {
+    border-color: #83bbd9;
+}
+
+#panel-default {
+    border-color: #ddd;
+}
+
+.clean-bottom{
+    margin-bottom: 0;
+}
+
+.clean-padding{
+    padding: 0;
+}
+
+.clean-margin{
+    margin: 0;
+}
+
+.M-L-20{
+    margin-right: 20px;
+}
+
+.nav-justified>li{
+    background-color: #428bca;
+}
+
+.vertical-middle{
+    vertical-align: middle;
+}
+
+.jump{
+    border: #AFD5F5 1px solid;
+    margin: 5px;
+    padding: 2px;
+    background: #fff;
+}
+
+.article
+{ 
+background-color:white;
+padding:40px 13%;
+margin-bottom:14px;}
+.article-title
+{font-size:18px;
+text-align:center;
+line-height:30px;
+color:#c00;
+font-weight:bold;
+font-family:"微软雅黑","宋体",Arial;
+margin:0px auto 20px auto;}
+.article-info
+{font-size:12px;
+text-align:center;
+line-height:22px;
+font-family:"微软雅黑","宋体",Arial;
+}
+.article-content
+{
+text-align:left;
+font-size:16px;
+line-height:30px;}
+
+.article hr{
+	margin-top: 40px;
+}
+
+.footer,.footer:link,.footer:visited,.footer:hover,.footer:active{
+    color:#fff;
+}
+
+.mid{
+	text-align:center;
+}
+
+.share{
+	width: 100%;
+	text-align: center;
+	height: 150px;
+}
+
+.share img{
+	height: 100%;
+}
+
+.baiduShare{
+	float:right;
+}
+
+.lqx-panel-a{
+	overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}

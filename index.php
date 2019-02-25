@@ -1,6 +1,6 @@
 <?php
-define("__ROOT__", __DIR__ . "/");
+ini_set("display_errors", "On");
+error_reporting(E_ALL | E_STRICT);
 
-$System_Init = include 'Config/System.php';
-
-include  $System_Init["SB"] . "/" . "SBFramework.php";
+include 'SBFramework/Init.php';
+SBFramework::run();
