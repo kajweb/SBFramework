@@ -1,4 +1,4 @@
-# SBFramework v0.97( beta )
+# SBFramework v0.97.1( beta )
 
 >一个轻量级的PHP框架
 
@@ -15,7 +15,6 @@ git clone https://github.com/kajweb/SBFramework
 cd SBFramework
 php -S 0.0.0.0:5130
 curl 127.0.0.1:5130
-curl 127.0.0.1:5130/index/index/test
 ```
 即可看到运行demo的结果
 

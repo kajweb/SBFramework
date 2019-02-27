@@ -4,7 +4,8 @@ use think\Db;
 
 Class Init{
 	static function run(){
-		 (new self())->DB()->init();
+		// 初始化数据库配置
+		(new self())->DB()->init();
 	}
 	
 	function init(){
@@ -14,6 +15,7 @@ Class Init{
 	
 	function DB(){
 		$_db_path = __CONFIG__ . "DB.php";
+		// 检测框架是否完成安装
 		if( !is_file($_db_path) ){
 			errorPage("数据库配置文件不存在","请检查数据库配置文件是否存在","配置文件出错");
 		}
