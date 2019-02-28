@@ -4,4 +4,4 @@ include __CORE__ . "Thrower/Installer.php";
 
 include 'Config/Init.php';
 
-Init\Init::run();
+Config\Init::run();
