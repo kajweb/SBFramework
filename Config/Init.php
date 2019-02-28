@@ -1,5 +1,5 @@
 <?php
-namespace Init;
+namespace Config;
 use think\Db;
 
 Class Init{
