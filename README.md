@@ -1,4 +1,4 @@
-# SBFramework v0.97.4( beta )
+# SBFramework v0.97.5( beta )
 
 >一个轻量级的PHP框架
 
@@ -7,13 +7,13 @@
 
 ## ✨ 项目背景
 * 大家都说PHP运行慢，个人认为这是由于框架太臃肿导致的。   
-* 原生主义者适合使用的框架，极大减少了框架内助手函数，迅捷开发。  
+* 框架保留了大量的原生函数，极大减少了框架内助手函数，迅捷开发。  
 
 ## ⌛️ 使用方法
 ```
 git clone https://github.com/kajweb/SBFramework
 cd SBFramework
-使用nginx、apache、php-fpm、swoole等方法配置并运行程序， 
+使用nginx、apache、php-fpm、swoole等方法配置并运行程序  
 或者使用php内置的http服务器运行SBF框架
 php -S 0.0.0.0:12345
 curl 127.0.0.1:12345
