@@ -1,4 +1,4 @@
-# SBFramework v0.97.3( beta )
+# SBFramework v0.97.4( beta )
 
 >一个轻量级的PHP框架
 
@@ -13,11 +13,11 @@
 ```
 git clone https://github.com/kajweb/SBFramework
 cd SBFramework
+使用nginx、apache、php-fpm、swoole等方法配置并运行程序， 
+或者使用php内置的http服务器运行SBF框架
 php -S 0.0.0.0:12345
 curl 127.0.0.1:12345
 curl 127.0.0.1:12345/example.php
-# 或者
-使用nginx/apache 
 ```
 即可看到运行demo的结果
 
